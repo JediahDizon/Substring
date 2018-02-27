@@ -7,4 +7,4 @@ Using a Javascript compiler (ie. NodejS), run the `index.js` file.
 This will run a series of tests using the implemented substring function.
 
 ## Screenshot
-![Current Screenshot](https://github.com/JediahDizon/NumberPair/blob/master/doc/screenshots/Screenshot.png "Logo")
+![Current Screenshot](https://github.com/JediahDizon/Substring/blob/master/doc/screenshots/Screenshot.png "Logo")
