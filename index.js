@@ -21,7 +21,9 @@ function isSubstring(fullString, substring) {
 	// Get the index of the first letter of the substring from the full string
 	for(var outerIndex = 0; outerIndex < fullStringArray.length; outerIndex++) {
 		if(substringArray[0] === fullStringArray[outerIndex]) {
-
+			
+			// If there is a match, compare the rest of the substrings' letters to the 
+			// full string starting from the located index
 			for(var innerIndex = 0; innerIndex < substringArray.length; innerIndex++) {
 				if(substringArray[innerIndex] !== fullStringArray[outerIndex + innerIndex]) break;
 				if(innerIndex === substringArray.length - 1) return true;
